@@ -52,7 +52,6 @@ export default {
   
   .container {
     display: flex;
-    background-color: aqua;
   }  
 
   .left-header {
@@ -73,7 +72,6 @@ export default {
   }
 
   ul {
-    text-transform: uppercase;
     list-style: none;
     display: flex;
     justify-content: center;
