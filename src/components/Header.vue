@@ -52,6 +52,7 @@ export default {
   
   .container {
     display: flex;
+    height: 10vh;
   }  
 
   .left-header {
@@ -60,6 +61,9 @@ export default {
     justify-content: left;
     width: 20%;
     margin-left: 4em;
+    img {
+      width: 20%;
+    }
   }
   
   .right-header {
@@ -86,8 +90,8 @@ export default {
       font-weight: bold;
       &:hover,
       &:active {
-        border-bottom: 4px solid blue;
-        color: blue;
+        border-bottom: 4px solid #0072cf;
+        color: #0072cf;
       }
     }
   }

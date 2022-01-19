@@ -71,10 +71,13 @@ export default {
   .box {
     display: flex;
     color: white;
+    justify-content: space-between;
+    margin: 1em;
   }
 
   .dark {
     background-color: black;
+    height: 10vh;
     color: white;
     padding: 1em;
     padding-left: 4em;
@@ -82,10 +85,10 @@ export default {
   }
 
   .blue {
-    background-color: blue;
+    background-color: #0072cf;
     padding-left: 4em;
     padding-right: 4em;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,9 +98,14 @@ export default {
     }
   }
 
+  .icona {
+    img {
+      width: 3em;
+    }
+  }
+
   .link {
     align-self: center;
-
   }
 
 
