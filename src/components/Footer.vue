@@ -122,6 +122,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/partials/_variables.scss";
+
   .footer-top {
     height: 55vh;
     display: flex;
@@ -183,7 +185,7 @@ export default {
 
   .sign, .social {
     span {
-      color: #0072cf;
+      color: $bluemain;
       font-weight: bold;
       align-self: center;
     }
@@ -193,7 +195,7 @@ export default {
     padding-left: 4em;
     a {
       color: white;
-      border: 3px solid #0072cf;
+      border: 3px solid $bluemain;
       padding: 0.5em;
       text-decoration: none;
     }

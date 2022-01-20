@@ -49,6 +49,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/scss/partials/_variables.scss";
+
   
   .container {
     display: flex;
@@ -90,8 +92,8 @@ export default {
       font-weight: bold;
       &:hover,
       &:active {
-        border-bottom: 4px solid #0072cf;
-        color: #0072cf;
+        border-bottom: 4px solid $bluemain;
+        color: $bluemain;
       }
     }
   }

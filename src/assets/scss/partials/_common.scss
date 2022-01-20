@@ -25,3 +25,16 @@ h1 {
     text-align: center;
 }
 
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float{
+    float: left;
+}
+
+.relative{
+    position: relative;
+}
